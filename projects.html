@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	 <link rel="icon" 
+      type="image/png" 
+      href="images/favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daylight Projects page</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <style type="text/css">
+    #video_overlays {
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 43%;
+    left: 37%;
+	width: calc(100vw * 0.27);
+}
+    #navbar_overlays {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+    #video_box {
+    position: relative;
+}
+	#reSize {
+	width: calc(100vw * 0.27);
+}
+    </style>
+	  <script>
+		  window.addEventListener("load", playerSizer);  /* Resize on load */
+window.addEventListener("resize", playerSizer);  /* Resize on change in window size */
+
+/* Resize function */
+function playerSizer() {
+  var player = document.getElementById("player");  /* Element ID */
+  var width = player.offsetWidth;  /* Get width */
+  player.style.height = (width * 0.5625) + "px";  /* Aspect ratio */
+}
+	  </script>
+	  <script>
+		  window.addEventListener("load", playerSizer);  /* Resize on load */
+window.addEventListener("resize", playerSizer);  /* Resize on change in window size */
+
+/* Resize function */
+function playerSizer() {
+  var player = document.getElementById("player2");  /* Element ID */
+  var width = player.offsetWidth;  /* Get width */
+  player.style.height = (width * 0.5625) + "px";  /* Aspect ratio */
+}
+	  </script>
+	  	  <script>
+		  window.addEventListener("load", playerSizer);  /* Resize on load */
+window.addEventListener("resize", playerSizer);  /* Resize on change in window size */
+
+/* Resize function */
+function playerSizer() {
+  var player = document.getElementById("player3");  /* Element ID */
+  var width = player.offsetWidth;  /* Get width */
+  player.style.height = (width * 0.5625) + "px";  /* Aspect ratio */
+}
+	  </script>
+
+  </head>
+  <body>
+<div id="wrap_video">
+  <div id="video_box">
+    <div id="navbar_overlays">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html"><img src="images/DaylightVfx_logo_transparent.png" alt="Daylight Logo" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active" style=""> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"> <a class="nav-link" href="index.html#about_us">About</a></li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Portfolio </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="projects.html">Projects</a> <a class="dropdown-item" href="#">Reels</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Gallery</a> </div>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="training.html">Training</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div id="video_overlays">
+		<img src="images/DaylightVfx_logo_up_n_down.png" class="img-fluid" alt="Responsive image">
+	</div>
+    <div>
+	  <img src="images/projects_candles_banner.jpg" width="100%" alt="candles shabbat"/>
+    </div>
+  </div>
+</div>
+<header>
+  <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center">Project: Lighting with Renderman </h1>
+		    <p>Process involved:</p>    
+            <ul type="square">
+			<p>
+			  <li>Camera tracking and matchmoved</li></p>
+			  <p><center>
+  <!-- Remember to change your YouTube URL -->
+  <!-- Note width="100%", this will be used to calculate height -->
+  <!-- Note id="player", this will be used by JavaScript function -->
+  <iframe 
+    id="player" 
+    width="100%" 
+    src="https://www.youtube.com/embed/cNC8ohgQvck" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+      Your browser does not support this, try viewing it on YouTube: YOUR URL
+    </iframe>
+</center>
+              </p>
+			  <p>
+			  <li>Lighting 3D scenes with Renderman to match Key, Fill and Rim lights to live action footage.</li></p>
+			  <p><center>
+  <!-- Remember to change your YouTube URL -->
+  <!-- Note width="100%", this will be used to calculate height -->
+  <!-- Note id="player", this will be used by JavaScript function -->
+  <iframe 
+    id="player2" 
+    width="100%" 
+    src="https://www.youtube.com/embed/BLTqQQmvFRw" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+      Your browser does not support this, try viewing it on YouTube: YOUR URL
+    </iframe>
+</center>
+			   </p>
+			   <p>
+			   <li>Multi-pass compositing Renderman AOVs to integrate in live action footage; re-applying lens distortion; and remote farm rendering in the clouds.</li></p>
+			   <p><center>
+  <!-- Remember to change your YouTube URL -->
+  <!-- Note width="100%", this will be used to calculate height -->
+  <!-- Note id="player", this will be used by JavaScript function -->
+  <iframe 
+    id="player3" 
+    width="100%" 
+    src="https://www.youtube.com/embed/rmdub5aHYt8" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+      Your browser does not support this, try viewing it on YouTube: YOUR URL
+    </iframe>
+</center>
+			  </p>
+			  </ul>
+            <p>&nbsp;</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <div class="container">
+    <div class="row">
+		<div class="col-12 col-md-4">
+		  <div id="reSize"><img src="images/daylight_logo_footer.png" class="img-fluid" alt="Responsive image"></div>
+		</div>
+      <div class="col-12 col-md-8 mx-auto">
+        <div class="jumbotron">
+          <div class="row text-center">
+            <div id="contact_us" class="text-center col-12">
+				<p><b> Daylight Vfx</b><br>
+                                      PUMA Linda Vista 110 vs Arriba<br>
+					                  Managua, Mga. Nicaragua</p>
+                                                                
+		        <p><b>e-mail:</b> josueselva@gmail.com</p>
+
+				<p><b> Phone:</b><br>
+		       		       		       Nicaragua: +505 2266-7707<br>
+                                       USA: +1(909)345-3229<br>
+				                       Canada: +1(437)371-1955</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      
+    </div>
+  </div>
+  <footer class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p>Copyright © 2021 Daylight Vfx. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
